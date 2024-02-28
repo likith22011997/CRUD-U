@@ -1,0 +1,22 @@
+<div class="container">
+  <legend>Edit Item</legend>
+  <form>
+    <div class="mb-3">
+      <label for="txtStaff_id" class="form-label">Staff_id</label>
+      <input type="number" name="staff_id" [(ngModel)] = "userForm.staff_id" class="form-control" id="txtStaff_id" />
+    </div>
+    <div class="mb-3">
+      <label for="txtName" class="form-label">Name</label>
+      <input type="text" name="name" [(ngModel)] = "userForm.name" class="form-control" id="txtName" />
+    </div>
+    <div class="mb-3">
+      <label for="txtDesignation" class="form-label">Designation</label>
+      <input type="text" name="designation" [(ngModel)] = "userForm.designation" class="form-control" id="txtDesignation" />
+    </div>
+    <div class="mb-3">
+      <label for="txtBranch" class="form-label">Branch</label>
+      <input type="text" name="branch" [(ngModel)] = "userForm.branch" class="form-control" id="txtBranch" />
+    </div>
+    <button type="button" (click)="update()" class="btn btn-primary">Update</button>
+  </form>
+</div>
