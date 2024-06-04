@@ -1,0 +1,18 @@
+   <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><h3><b>LOGIN PAGE</b></h3></a>
+    </div>
+  </nav>
+
+  <form class="example-form">
+    <table class="example-full-width" cellspacing="0">     
+          <h4>
+          <input  placeholder="Username" [(ngModel)]="username" name="username" required>
+          </h4>      
+      <tr>
+      <td>
+        <input  placeholder="Password" [(ngModel)]="password"type="password" name="password" required>
+      </td>
+    </tr></table>
+    <button mat-raised-button (click)="login()" color="primary">Login</button>
+  </form>

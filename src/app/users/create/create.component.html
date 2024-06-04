@@ -1,0 +1,26 @@
+<div class="container" >
+  <legend>ADD USER</legend>
+  <form>
+    <div class="mb-3" >
+      <label for="txtStaff_id" class="form-label">Staff ID</label>
+      <input type="number" name="staff_id" [(ngModel)]="userForm.staff_id" class="form-control" id="txtStaff_id" />
+    </div>
+    <div class="required mb-3">
+      <label for="txtName" class="form-label">Name</label>
+      <input type="text" name="name" [(ngModel)]="userForm.name" class="form-control" id="txtName" />
+    </div>
+    <div class="mb-3">
+      <label for="txtDesignation" class="form-label">Designation</label>
+      <input type="text" name="designation" [(ngModel)]="userForm.designation" class="form-control"
+        id="txtDesignation" />
+    </div>
+    <div class="mb-3">
+      <label for="txtBranch" class="form-label">Branch</label>
+      <input type="text" name="branch" [(ngModel)]="userForm.branch" class="form-control" id="txtBranch" />
+    </div>
+    <button type="button" (click)="create()" class="btn btn-primary">Create</button>
+  </form>
+</div>
+<!-- Here enable 2-way model binding using '[(ngModel)]'. 
+  One more important thing here is that the input element must contain 
+  the 'name' attribute for 2-way model binding. -->

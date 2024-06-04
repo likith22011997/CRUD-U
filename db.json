@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "staff_id": 9997,
+      "name": "BINDU KUMAR",
+      "designation": "Manager",
+      "branch": "DCOE"
+    },
+    {
+      "id": 3,
+      "staff_id": 10624,
+      "name": "KIRAN G S",
+      "designation": "Senior MANAGER",
+      "branch": "DCOE"
+    },
+    {
+      "id": 4,
+      "staff_id": 14141,
+      "name": "Likith K",
+      "designation": "Officer",
+      "branch": "DCoE"
+    },
+    {
+      "id": 5,
+      "staff_id": 12500,
+      "name": "Sanjay Gowda M R",
+      "designation": "Office Assistant",
+      "branch": "DCoE"
+    }
+  ]
+}
